@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ecom-backend"
+version = "0.1.0"
+description = "FastAPI e-commerce backend"
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.95"
+uvicorn = {extras=["standard"], version="^0.22"}
+SQLAlchemy = "^2.0"
+asyncpg = "^0.27"
+python-dotenv = "^1.0"
+passlib = "^1.7"
+python-jose = "^3.3"
+alembic = "^1.10"
+httpx = "^0.24"
+pydantic = "^1.10"

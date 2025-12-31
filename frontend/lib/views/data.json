@@ -1,0 +1,58 @@
+[
+    {
+        "id": 11,
+        "total_amount": "36.60",
+        "status": "PENDING",
+        "tracking_number": "13ea1153-3",
+        "created_at": "2025-12-30T02:46:23.575262-05:00",
+        "items": [
+            {
+                "product_id": 6111035000430,
+                "quantity": 1,
+                "price": "14.60"
+            },
+            {
+                "product_id": 7622210449283,
+                "quantity": 1,
+                "price": "16.70"
+            },
+            {
+                "product_id": 6111242100992,
+                "quantity": 1,
+                "price": "5.30"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "total_amount": "36.60",
+        "status": "PENDING",
+        "tracking_number": "afd7d6c8-b",
+        "created_at": "2025-12-30T01:57:08.966621-05:00",
+        "items": []
+    },
+    {
+        "id": 3,
+        "total_amount": "36.60",
+        "status": "PENDING",
+        "tracking_number": "15cf6253-f",
+        "created_at": "2025-12-30T01:55:29.185747-05:00",
+        "items": []
+    },
+    {
+        "id": 2,
+        "total_amount": "36.60",
+        "status": "PENDING",
+        "tracking_number": "46ea1dcf-3",
+        "created_at": "2025-12-30T01:53:54.576184-05:00",
+        "items": []
+    },
+    {
+        "id": 1,
+        "total_amount": "36.60",
+        "status": "PENDING",
+        "tracking_number": "605368e1-4",
+        "created_at": "2025-12-30T01:53:32.576924-05:00",
+        "items": []
+    }
+]

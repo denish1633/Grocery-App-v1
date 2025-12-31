@@ -1,0 +1,32 @@
+[project]
+name = "ai-grocery-app"
+version = "0.1.0"
+description = ""
+authors = [
+    { name = "denish", email = "denishshingala1632003@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+
+[tool.poetry.dependencies]
+fastapi = { version = ">=0.119.0,<0.120.0", extras = ["all"] }
+psycopg2-binary = ">=2.9.11,<3.0.0"
+sqlalchemy = ">=2.0.44,<3.0.0"
+python-jose = { version = ">=3.5.0,<4.0.0", extras = ["cryptography"] }
+passlib = { version = ">=1.7.4,<2.0.0", extras = ["bcrypt"] }
+pydantic-settings = ">=2.11.0,<3.0.0"
+uvicorn = { version = ">=0.37.0,<0.38.0", extras = ["standard"] }
+asyncpg = ">=0.30.0,<0.31.0"
+python-dotenv = ">=1.1.1,<2.0.0"
+pydantic = ">=2.12.2,<3.0.0"
+httpx = ">=0.28.1,<0.29.0"
+requests = ">=2.31.0,<3.0.0"
+python-multipart = ">=0.0.20,<0.0.21"
+
+[tool.poetry.dev-dependencies]
+pytest = ">=8.4.2,<9.0.0"
+pytest-asyncio = ">=1.2.0,<2.0.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
