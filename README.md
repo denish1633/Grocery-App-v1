@@ -8,7 +8,7 @@ Frontend is deployed on **GitHub Pages**, while the backend is hosted separately
 ---
 ## 📱 Screens & Features
 
-### 🔐 Authentication Screens
+### 🔐 Authentication Screenså
 **Login Screen**
 - User login using email/username and password
 - JWT-based authentication
@@ -90,6 +90,7 @@ Frontend is deployed on **GitHub Pages**, while the backend is hosted separately
 ---
 
 ## 🗂 Project Structure
+```
 .
 ├── backend
 │   ├── app
@@ -206,4 +207,4 @@ Frontend is deployed on **GitHub Pages**, while the backend is hosted separately
     ├── venv
     ├── web
     └── windows
-### Frontend
+```
